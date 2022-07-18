@@ -9,10 +9,12 @@ import java.time.LocalDateTime;
 @Table(name = "PRICE")
 public class Price {
     @Id
-    String id;
-    String instrumentName;
-    Double bid;
-    Double ask  ;
+    private String id;
+    private String instrumentName;
+    private Double bid;
+    private Double ask  ;
+
+    private LocalDateTime timestamp;
 
     public Price() {}
 
@@ -75,6 +77,6 @@ public class Price {
         this.timestamp = timestamp;
     }
 
-    LocalDateTime timestamp;
+
 
 }
