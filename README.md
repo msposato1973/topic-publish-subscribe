@@ -43,6 +43,9 @@ github. If you make any assumptions, please add comments in the code or into the
 
 <End>
 
-
+## compile:
 - mvn clean compile
 - mvn clean install
+
+## run:
+execute the class "Run.java"
